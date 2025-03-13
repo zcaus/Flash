@@ -29,7 +29,7 @@ with col_nav[1]:
 
 @st.cache_data
 def carregar_dados():
-    df = pd.read_excel('planilha/SPEZIA.xlsx')
+    df = pd.read_excel('planilha/SPEZIA.XLSX')
     return df
 
 df = carregar_dados()
